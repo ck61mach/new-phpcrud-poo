@@ -16,10 +16,10 @@ fontawesome para uso dos icons.
 4. Criar uma tabela (product) com a seguinte estrutura:  
 
 id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-nameProduct VARCHAR(30) NOT NULL,
-priceProduct INT NOT NULL,
+name VARCHAR(120) NOT NULL,
+descriptionProduct VARCHAR(255) NOT NULL
 currencyType VARCHAR(3) NOT NULL,
-descriptionProduct VARCHAR(140) NOT NULL  
+priceProduct FLOAT(5,2) NOT NULL,
 
 Caso realize alguma mudança na estrutura da tabela, lembre-se de atualizar o código também.
 
