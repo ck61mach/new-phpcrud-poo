@@ -14,12 +14,13 @@ fontawesome para uso dos icons.
     2.1 Workbench ou Terminal
 3. Criar um banco de dados (nome: crud)
 4. Criar uma tabela (product) com a seguinte estrutura:  
-
+```
 id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 name VARCHAR(120) NOT NULL,
 descriptionProduct VARCHAR(255) NOT NULL
 currencyType VARCHAR(3) NOT NULL,
 priceProduct FLOAT(5,2) NOT NULL,
+```
 
 Caso realize alguma mudança na estrutura da tabela, lembre-se de atualizar o código também.
 
